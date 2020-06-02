@@ -1,9 +1,9 @@
 import React from "react"
 import SEO from './seo'
 import Header from './header'
-import 'tailwindcss/tailwind.css'
-import styles from './layout.module.css'
 import Footer from "./footer"
+import '../style.css'
+import styles from './layout.module.css'
 
 const Layout = ({ children }) => {
   return (
