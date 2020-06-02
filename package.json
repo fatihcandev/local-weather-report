@@ -5,7 +5,7 @@
   "version": "1.0",
   "scripts": {
     "build": "gatsby build",
-    "build:css": "postcss ./src/tailwind.css -c ./tailwind.config.js -o ./src/style.css",
+    "build:css": "postcss src/tailwind.css -c tailwind.config.js -o src/style.css",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
@@ -32,9 +32,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/fatihcandev/local-weather-report"
   }
 }
