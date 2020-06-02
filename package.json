@@ -2,10 +2,10 @@
   "name": "local-weather-report",
   "private": false,
   "description": "Local weather report website.",
-  "version": "1.0",
+  "version": "0.1.0",
   "scripts": {
     "build": "gatsby build",
-    "build:css": "postcss src/tailwind.css -c tailwind.config.js -o src/style.css",
+    "build:css": "npx tailwind build src/tailwind.css -c tailwind.config.js -o src/style.css",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
