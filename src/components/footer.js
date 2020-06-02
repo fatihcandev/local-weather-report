@@ -3,7 +3,9 @@ import React from "react"
 const Text = () => {
   return (
     <div className="flex flex-wrap justify-center items-center">
-      <a href="https://fatihcan.dev" className="text-xl text-white font-semibold">Made by Fatih Can with</a>
+      <h1 className="text-xl text-white font-semibold">Made by</h1>
+      <a href="https://fatihcan.dev" target="_blank noreferrer" className="text-xl text-blue-500 font-semibold ml-1">Fatih Can</a>
+      <h1 className="text-xl text-white font-semibold ml-1">with</h1>
       <a href="https://gatsbyjs.org" target="_blank noreferrer"
         className="text-xl font-semibold text-purple-500 ml-1">GatsbyJS</a>
       <h1 className="text-xl text-white font-semibold ml-1">and</h1>
