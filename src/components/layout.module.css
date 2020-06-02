@@ -1,0 +1,10 @@
+.main {
+  background: url(../images/main-bg.webp) no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

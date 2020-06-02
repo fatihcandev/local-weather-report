@@ -10,7 +10,7 @@ const Title = () => {
   return (
     <div className="flex justify-center items-center">
       <SunIcon />
-      <h1 className="text-white font-bold ml-1">Local Weather Report</h1>
+      <h1 className="text-xl text-white font-semibold ml-1">Local Weather Report</h1>
     </div>
   )
 }
@@ -23,4 +23,4 @@ const Header = () => {
   )
 }
 
-export default Header;
+export default Header
