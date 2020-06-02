@@ -1,4 +1,4 @@
-This is a website that you can get the latest weather report of your location.
+This is a website that you can get the latest weather report of your location from.
 
 # Tools that had been used
 
