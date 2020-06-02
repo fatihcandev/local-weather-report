@@ -2,7 +2,7 @@ import React from "react"
 import SEO from './seo'
 import Header from './header'
 import Footer from "./footer"
-import '../../static/style.css'
+import '../../static/css/style.css'
 import styles from './layout.module.css'
 
 const Layout = ({ children }) => {

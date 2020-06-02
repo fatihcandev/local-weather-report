@@ -160,7 +160,7 @@ export default function Home() {
       <section className="flex flex-col justify-center p-4">
         {
           latitude === "" && longitude === ""
-            ? <h1 className="text-xl text-white">Waiting for the permission...</h1>
+            ? <h1 className="text-xl text-white text-center">Waiting for the permission...</h1>
             : isLoaded
               ? <Main
                 text={weather.text}
